@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elsya"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-07 10:49:26 PM"/>
+        <attribute name="created" value="RWxzeWE7RUxTWUE7MjAyMy0wMy0wNzswOTozMzo0NiBQTTsyMTc4"/>
+        <attribute name="edited" value="RWxzeWE7RUxTWUE7MjAyMy0wMy0wNzsxMDo0OToyNiBQTTs0OzIyODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <if expression="a &gt; b">
+                <then>
+                    <output expression="a&amp; &quot;terbesar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b &gt; c">
+                        <then>
+                            <output expression="b&amp; &quot;terbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="c &gt; d">
+                                <then>
+                                    <output expression="c&amp; &quot;terbesar&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="d &gt; a">
+                                        <then>
+                                            <output expression="d&amp; &quot;terbesar&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="a &gt; c">
+                                                <then>
+                                                    <output expression="a&amp; &quot;terbesar&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
